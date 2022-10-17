@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #d7d4bb;
+  font-weight: bold;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #1f391c;
+color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 3rem 0;
+}
+
+.navbar-brand {
+  color: #e1c160;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.img-jerky {
+  width: 30%;
+  position: absolute;
+  right: 15%;
+  border-radius: 100%;
+  transform: rotate(15deg);
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+}
+
+.features-p {
+  padding: 3%;
+  color: #8f8f8f;
+}
+
+.feature-pic {
+  color: #d7d4bb;
+  font-size: 3rem;
+  padding: 5%;
+}
+
+.feature-pic:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  color: #d7d4bb;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* media query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-jerky {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to action */
+
+#cta {
+  padding: 7% 15%;
+}
+
+.true-love {
+  color: #d7d4bb;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+  padding: 80px 0 0 0;
+}
+
+.social-media {
+  padding: 10px 10px 20px 10px;
+}
